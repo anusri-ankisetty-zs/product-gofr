@@ -1,4 +1,4 @@
-module ggo/productGofr
+module productGofr
 
 go 1.17
 
