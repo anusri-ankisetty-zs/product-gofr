@@ -2,7 +2,12 @@ module productGofr
 
 go 1.17
 
-require developer.zopsmart.com/go/gofr v0.0.0-20220128104102-2e46a3994349
+require (
+	developer.zopsmart.com/go/gofr v0.0.0-20220128104102-2e46a3994349
+	github.com/DATA-DOG/go-sqlmock v1.5.0
+	github.com/golang/mock v1.6.0
+	github.com/jinzhu/gorm v1.9.16
+)
 
 require (
 	cloud.google.com/go v0.94.1 // indirect
@@ -48,7 +53,6 @@ require (
 	github.com/golang-jwt/jwt/v4 v4.1.0 // indirect
 	github.com/golang-sql/civil v0.0.0-20190719163853-cb61b32ac6fe // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
-	github.com/golang/mock v1.6.0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/go-cmp v0.5.6 // indirect
