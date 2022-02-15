@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"reflect"
 
-	"productGofr/models"
-	"productGofr/services"
+	"github.com/productGofr/models"
+	"github.com/productGofr/services"
 	"testing"
 
 	"developer.zopsmart.com/go/gofr/pkg/errors"

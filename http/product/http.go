@@ -4,8 +4,8 @@ import (
 	// "encoding/json"
 	"fmt"
 	"net/http"
-	"productGofr/models"
-	"productGofr/services"
+	"github.com/productGofr/models"
+	"github.com/productGofr/services"
 
 	// "reflect"
 

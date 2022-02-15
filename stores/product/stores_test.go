@@ -2,7 +2,7 @@ package product
 
 import (
 	"context"
-	"productGofr/models"
+	"github.com/productGofr/models"
 	"reflect"
 	"testing"
 

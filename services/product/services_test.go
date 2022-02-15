@@ -4,8 +4,8 @@ import (
 	"context"
 	"reflect"
 
-	"productGofr/models"
-	"productGofr/stores"
+	"github.com/productGofr/models"
+	"github.com/productGofr/stores"
 	"testing"
 
 	"developer.zopsmart.com/go/gofr/pkg/errors"

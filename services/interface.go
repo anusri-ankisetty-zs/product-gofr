@@ -1,7 +1,7 @@
 package services
 
 import (
-	"productGofr/models"
+	"github.com/productGofr/models"
 
 	"developer.zopsmart.com/go/gofr/pkg/gofr"
 )
