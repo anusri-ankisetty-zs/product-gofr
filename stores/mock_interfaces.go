@@ -35,6 +35,35 @@ func (m *MockIstore) EXPECT() *MockIstoreMockRecorder {
 	return m.recorder
 }
 
+// CreateProduct mocks base method.
+func (m *MockIstore) CreateProduct(arg0 *gofr.Context, arg1 models.Product) (int, error) {
+	m.ctrl.T.Helper()
+	ret := m.ctrl.Call(m, "CreateProduct", arg0, arg1)
+	ret0, _ := ret[0].(int)
+	ret1, _ := ret[1].(error)
+	return ret0, ret1
+}
+
+// CreateProduct indicates an expected call of CreateProduct.
+func (mr *MockIstoreMockRecorder) CreateProduct(arg0, arg1 interface{}) *gomock.Call {
+	mr.mock.ctrl.T.Helper()
+	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "CreateProduct", reflect.TypeOf((*MockIstore)(nil).CreateProduct), arg0, arg1)
+}
+
+// DeleteById mocks base method.
+func (m *MockIstore) DeleteById(arg0 *gofr.Context, arg1 int) error {
+	m.ctrl.T.Helper()
+	ret := m.ctrl.Call(m, "DeleteById", arg0, arg1)
+	ret0, _ := ret[0].(error)
+	return ret0
+}
+
+// DeleteById indicates an expected call of DeleteById.
+func (mr *MockIstoreMockRecorder) DeleteById(arg0, arg1 interface{}) *gomock.Call {
+	mr.mock.ctrl.T.Helper()
+	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "DeleteById", reflect.TypeOf((*MockIstore)(nil).DeleteById), arg0, arg1)
+}
+
 // GetAllUsers mocks base method.
 func (m *MockIstore) GetAllUsers(arg0 *gofr.Context) ([]*models.Product, error) {
 	m.ctrl.T.Helper()
@@ -48,6 +77,21 @@ func (m *MockIstore) GetAllUsers(arg0 *gofr.Context) ([]*models.Product, error) 
 func (mr *MockIstoreMockRecorder) GetAllUsers(arg0 interface{}) *gomock.Call {
 	mr.mock.ctrl.T.Helper()
 	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "GetAllUsers", reflect.TypeOf((*MockIstore)(nil).GetAllUsers), arg0)
+}
+
+// UpdateById mocks base method.
+func (m *MockIstore) UpdateById(arg0 *gofr.Context, arg1 int, arg2 models.Product) (int, error) {
+	m.ctrl.T.Helper()
+	ret := m.ctrl.Call(m, "UpdateById", arg0, arg1, arg2)
+	ret0, _ := ret[0].(int)
+	ret1, _ := ret[1].(error)
+	return ret0, ret1
+}
+
+// UpdateById indicates an expected call of UpdateById.
+func (mr *MockIstoreMockRecorder) UpdateById(arg0, arg1, arg2 interface{}) *gomock.Call {
+	mr.mock.ctrl.T.Helper()
+	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "UpdateById", reflect.TypeOf((*MockIstore)(nil).UpdateById), arg0, arg1, arg2)
 }
 
 // UserById mocks base method.
