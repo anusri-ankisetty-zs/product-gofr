@@ -1,7 +1,7 @@
 package stores
 
 import (
-	"github.com/productGofr/models"
+	"github.com/anusri-ankisetty-zs/productGofr/models"
 
 	"developer.zopsmart.com/go/gofr/pkg/gofr"
 )

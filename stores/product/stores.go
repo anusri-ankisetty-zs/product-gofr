@@ -2,8 +2,8 @@ package product
 
 import (
 	"database/sql"
-	"github.com/productGofr/models"
-	"github.com/productGofr/stores"
+	"github.com/anusri-ankisetty-zs/productGofr/models"
+	"github.com/anusri-ankisetty-zs/productGofr/stores"
 	"strconv"
 
 	"developer.zopsmart.com/go/gofr/pkg/errors"

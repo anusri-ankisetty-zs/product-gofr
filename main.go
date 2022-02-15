@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	httpProd "github.com/productGofr/http/product"
-	servProd "github.com/productGofr/services/product"
-	storeProd "github.com/productGofr/stores/product"
+	httpProd "github.com/anusri-ankisetty-zs/productGofr/http/product"
+	servProd "github.com/anusri-ankisetty-zs/productGofr/services/product"
+	storeProd "github.com/anusri-ankisetty-zs/productGofr/stores/product"
 
 	"developer.zopsmart.com/go/gofr/pkg/gofr"
 )

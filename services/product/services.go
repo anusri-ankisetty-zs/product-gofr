@@ -1,9 +1,9 @@
 package product
 
 import (
-	"github.com/productGofr/models"
-	"github.com/productGofr/services"
-	"github.com/productGofr/stores"
+	"github.com/anusri-ankisetty-zs/productGofr/models"
+	"github.com/anusri-ankisetty-zs/productGofr/services"
+	"github.com/anusri-ankisetty-zs/productGofr/stores"
 	"strconv"
 
 	"developer.zopsmart.com/go/gofr/pkg/errors"

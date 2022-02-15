@@ -1,4 +1,4 @@
-module github.com/productGofr
+module github.com/anusri-ankisetty-zs/productGofr
 
 go 1.17
 
